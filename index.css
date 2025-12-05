@@ -39,6 +39,7 @@
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
+
     --container-max-width: 1180px;
     --container-normal-width: 800px;
     --container-medium-width: 700px; 
@@ -609,45 +610,5 @@ body:not(.user-is-tabbing) a:focus {
     .footer {
         padding: var(--gutter-medium) 0;
     } 
-}
-
-/* --------------------------------------- */
-/* ----- Snow Effect ----- */
-/* --------------------------------------- */
-
-.snow {
-    position: fixed;
-    pointer-events: none;   /* do not block clicks */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 9999;          /* above everything */
-}
-
-.snowflake {
-    position: absolute;
-    top: -10px;
-    background: #ffffff;
-    border-radius: 50%;
-    opacity: 0.8;
-    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.9));
-    animation-name: snow-fall;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-/* soft falling with a bit of sideways drift */
-@keyframes snow-fall {
-    0% {
-        transform: translate3d(0, -10px, 0);
-    }
-    50% {
-        transform: translate3d(15px, 50vh, 0);
-    }
-    100% {
-        transform: translate3d(-15px, 110vh, 0);
-    }
 }
 

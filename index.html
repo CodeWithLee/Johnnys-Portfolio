@@ -8,59 +8,16 @@
 
   <!-- Johnnys Portfolio -->
   <title>
-    Johnny Lee Jones Jr | A Software Engineer based in Charlotte, North Carolina.
+    Johnny Lee Jones Jr | A Software Engineer based in Charlotte, North Carolina. 
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
   <meta name="keywords" content="Put your name, skills and some coding keywords" />
   <link rel="stylesheet" href="index.css" />
-
-  <!-- Snow effect styles -->
-  <style>
-    /* Full-screen overlay for snow, sits on top but does not block clicks */
-    .snow {
-      position: fixed;
-      pointer-events: none;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      z-index: 9999;
-    }
-
-    .snowflake {
-      position: absolute;
-      top: -10px;
-      background: #ffffff;
-      border-radius: 50%;
-      opacity: 0.8;
-      filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.9));
-      animation-name: snow-fall;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-    }
-
-    /* Soft falling + gentle horizontal drift */
-    @keyframes snow-fall {
-      0% {
-        transform: translate3d(0, -10px, 0);
-      }
-      50% {
-        transform: translate3d(15px, 50vh, 0);
-      }
-      100% {
-        transform: translate3d(-15px, 110vh, 0);
-      }
-    }
-  </style>
 </head>
 
 <body>
-
-  <!-- Snow overlay -->
-  <div class="snow"></div>
 
   <!-- ***** Header ***** -->
 
@@ -82,8 +39,10 @@
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
           <span>Johnny Lee Jones Jr</span>
         </h1>
+        <!-- Put a small paragraph about yourself -->
         <p>A Software Engineer based in Charlotte, North Carolina.</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
@@ -128,8 +87,6 @@
             </div>
           </div>
 
-        </div>
-      </div>
     </section>
 
     <!-- ***** Clients ***** -->
@@ -156,26 +113,20 @@
         <h2>About Me</h2>
         <div class="about__content">
           <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
             <p>
-              My name is Johnny Jones, and I am a software engineer based in Charlotte, North Carolina. I recently
-              earned my Bachelor of Science in Computer Science with a concentration in Software Engineering from
-              Southern New Hampshire University. My journey into tech is rooted in more than a decade of creative
-              problem-solving as a freelance graphic designer, where I spent over 10 years bringing ideas to life
-              through digital art, branding, and visual storytelling.
-              <br><br>
-              That creative background now fuels my approach to software development. I enjoy building clean,
-              user-focused applications and combining design thinking with technical skills to create meaningful
-              digital experiences. I am passionate about continuous learning, front-end development, and using
-              technology as a tool to build, improve, and innovate.
-              <br><br>
-              As I transition into the tech industry, I aim to blend creativity and engineering to develop modern
-              applications that are functional, intuitive, and visually engaging.
-            </p>
+              My name is Johnny Jones, and I am a software engineer based in Charlotte, North Carolina. I recently earned my Bachelor of Science in Computer Science with a concentration in Software Engineering from Southern New Hampshire University. My journey into tech is rooted in more than a decade of creative problem-solving as a freelance graphic designer, where I spent over 10 years bringing ideas to life through digital art, branding, and visual storytelling.
+
+That creative background now fuels my approach to software development. I enjoy building clean, user-focused applications and combining design thinking with technical skills to create meaningful digital experiences. I am passionate about continuous learning, front-end development, and using technology as a tool to build, improve, and innovate.
+
+As I transition into the tech industry, I aim to blend creativity and engineering to develop modern applications that are functional, intuitive, and visually engaging.            </p>
+            <!-- Provide a link to your resume -->
             <a href="#" class="btn">My Resume</a>
           </div>
 
           <div class="about__photo-container">
-            <img class="about__photo" src="./images/JohnnyJ.jpg" alt="Portrait of Johnny Jones" />
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/JohnnyJ.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -189,11 +140,10 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          If you’d like to connect, collaborate, or learn more about my work, feel free to reach out anytime. I enjoy
-          meeting other creators, developers, and professionals who share a passion for technology and design. The
-          quickest way to contact me is by email. I’m always open to conversations about new opportunities or creative
-          projects.
+          If you’d like to connect, collaborate, or learn more about my work, feel free to reach out anytime. I enjoy meeting other creators, developers, and professionals who share a passion for technology and design. The quickest way to contact me is by email.
+I’m always open to conversations about new opportunities or creative projects.
         </p>
+        <!-- Replace the email with yours -->
         <a href="mailto:JohnnyLJonesJr@gmail.com" class="btn">JohnnyLJonesJr@gmail.com</a>
       </div>
     </div>
@@ -221,14 +171,15 @@
           </a>
         </li>
         <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/" title="Link to Linkedin Profile">
-            <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
+          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
       </ul>
 
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2025 <a href="https://nisar.dev" class="link">Nisar</a>.
+        &copy; 2025 <a href="https://nisar.dev" class="link">Jones</a>.
       </p>
       <div class="footer__github-buttons">
         <iframe
@@ -240,47 +191,9 @@
   </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
-
-  <!-- Snow effect script -->
-  <script>
-    (function () {
-      const snowContainer = document.querySelector('.snow');
-      if (!snowContainer) return;
-
-      const SNOWFLAKE_COUNT = 120; // adjust for more/less snow
-
-      for (let i = 0; i < SNOWFLAKE_COUNT; i++) {
-        const flake = document.createElement('span');
-        flake.className = 'snowflake';
-
-        // Random size between 2px and 6px
-        const size = 2 + Math.random() * 4;
-        flake.style.width = size + 'px';
-        flake.style.height = size + 'px';
-
-        // Random horizontal start
-        flake.style.left = Math.random() * 100 + 'vw';
-
-        // Different speeds
-        const fallDuration = 6 + Math.random() * 8; // 6–14s
-        flake.style.animationDuration = fallDuration + 's';
-
-        // Staggered start times
-        const delay = Math.random() * 10;
-        flake.style.animationDelay = delay + 's';
-
-        // Slight opacity variation
-        flake.style.opacity = (0.5 + Math.random() * 0.5).toString();
-
-        snowContainer.appendChild(flake);
-      }
-    })();
-  </script>
-
   <script src="./index.js"></script>
 </body>
 
 </html>
-

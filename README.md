@@ -1,34 +1,9 @@
 # Portfolio Template
 
-### A beautiful minimal and accessible portfolio template for Developers ✨.
-
-To View the live site click [here &rarr;](https://portfolio-template.surge.sh)
-
-![Portfolio Gif](/images/portfolio.gif)
-
-## Want to learn How to create a template like this ?
-
-You can watch [this video series](https://www.youtube.com/watch?v=1nchVfpMGSg&list=PLwJBGAxcH7GzdavgKlCACbESzr-40lw3L) on my youtube channel where I re-create this from scratch. 
 
 
 
-## Features
 
-- Clean, Simple and Modern UI Design.
-- Uses No CSS or JavaScript Frameworks or libraries as dependencies.
-- Built with only HTML, CSS and a bit of JavaScript 🔨.
-- Well Organized Documentation.
-- Keyboard support.
-- Fully Responsive.
-- Loads fast ⚡.
-
-## Lighthouse Report
-
-![Lighthouse Report](/images/lighthouse-report.png)
-
-### Contributions are warmly welcomed ❤️.
-
-## Getting Started 🚀
 
 You'll need [Git](https://git-scm.com) to be installed on your computer. 
 ```
@@ -60,41 +35,7 @@ In all of the places where you're supposed to fill your information you'll find 
 </div>
 ```
 
-### Work Section
 
-Each div with class `work__box` represents a project, replace the contents of the all the tags with the information of your projects.
-
-```html
-<div class="work__box">
-    <div class="work__text">
-    <h3>Portfolio Template</h3>
-    <p>
-        A free Open Source Portfolio for anyone to use for free.
-    </p>
-    <ul class="work__list">
-        <li>HTML</li>
-        <li>SCSS</li>
-        <li>JavaScript</li>
-        <li>Parcel</li>
-    </ul>
-
-    <div class="work__links">
-        <a href="#" class="link__text">
-        Visit Site <span>&rarr;</span>
-        </a> 
-        <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
-        <img src="./images/github.svg" class="work__code" alt="GitHub">
-        </a>
-    </div>
-    </div>
-    <div class="work__image-box">
-        <img
-            src="./images/project-1.png"
-            class="work__image"
-            alt="Project 1"
-        />
-    </div>
-</div>
 ```
 
 For changing the screenshot:

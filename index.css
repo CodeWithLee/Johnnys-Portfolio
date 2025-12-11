@@ -534,6 +534,32 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+/* scrollable narrative for Enhancement One */
+
+.work__narrative {
+    margin-top: 2rem;
+    max-height: 18rem;
+    overflow-y: auto;
+    padding-right: .8rem;
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-normal);
+    color: var(--white-1);
+}
+
+.work__narrative::-webkit-scrollbar {
+    width: 6px;
+}
+
+.work__narrative::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+}
+
+.work__narrative::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
 /* --------------------------------------- */
 /* ----- Clients ----- */
 /* --------------------------------------- */

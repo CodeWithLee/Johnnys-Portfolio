@@ -441,9 +441,9 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .self-assessment {
-    font-size: 1.4rem;
-    line-height: 1.5;
-    max-width: 650px;
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-normal);
+    max-width: var(--container-medium-width);
     max-height: 14rem;
     overflow-y: auto;
     padding-right: .8rem;
@@ -640,7 +640,3 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
-
-
-
-

@@ -436,6 +436,33 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+/* ---------- Self Assessment Scroll Box ---------- */
+
+.self-assessment {
+    font-size: 0.85rem;
+    line-height: 1.35;
+    max-height: 11rem;
+    overflow-y: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 1.8rem;
+    padding-right: 0.8rem;
+    color: #dddddd;
+}
+
+.self-assessment::-webkit-scrollbar {
+    width: 6px;
+}
+
+.self-assessment::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+}
+
+.self-assessment::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+}
+
 /* --------------------------------------- */
 /* ----- Work ----- */
 /* --------------------------------------- */
@@ -472,7 +499,6 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__list {
-    /* list-style-type: square; */
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
 }
@@ -611,4 +637,5 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+
 

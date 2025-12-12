@@ -534,10 +534,19 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.work__narrative-title {
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Jost', sans-serif;
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-small);
+    color: var(--white-1);
+}
+
 /* scrollable narrative for Enhancement One */
 
 .work__narrative {
-    margin-top: 2rem;
+    margin-top: 0;
     max-height: 18rem;
     overflow-y: auto;
     padding-right: .8rem;

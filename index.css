@@ -39,7 +39,6 @@
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
-
     --container-max-width: 1180px;
     --container-normal-width: 800px;
     --container-medium-width: 700px; 
@@ -534,7 +533,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* Enhancement One title above scroll box */
+/* Enhancement title above scroll box */
 
 .work__narrative-title {
     margin-top: 2rem;
@@ -545,11 +544,11 @@ body:not(.user-is-tabbing) a:focus {
     color: var(--white-1);
 }
 
-/* scrollable narrative for Enhancement One */
+/* scrollable narrative for enhancements */
 
 .work__narrative {
     margin-top: 2rem;
-    max-height: 18rem;
+    max-height: 22rem;
     overflow-y: auto;
     padding-right: .8rem;
     font-size: var(--font-size-small);
@@ -677,4 +676,3 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
-

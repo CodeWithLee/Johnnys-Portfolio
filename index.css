@@ -534,6 +534,8 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+/* Enhancement One title above scroll box */
+
 .work__narrative-title {
     margin-top: 2rem;
     margin-bottom: 0.8rem;
@@ -546,7 +548,7 @@ body:not(.user-is-tabbing) a:focus {
 /* scrollable narrative for Enhancement One */
 
 .work__narrative {
-    margin-top: 0;
+    margin-top: 2rem;
     max-height: 18rem;
     overflow-y: auto;
     padding-right: .8rem;
@@ -675,3 +677,4 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+

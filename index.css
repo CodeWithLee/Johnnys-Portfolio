@@ -451,6 +451,17 @@ body:not(.user-is-tabbing) a:focus {
     color: var(--white-1);
 }
 
+/* Keep the same font size as before when using <p> tags inside the scroll box */
+.self-assessment p {
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0 0 1.2rem 0;
+}
+
+.self-assessment p:last-child {
+    margin-bottom: 0;
+}
+
 .self-assessment::-webkit-scrollbar {
     width: 6px;
 }

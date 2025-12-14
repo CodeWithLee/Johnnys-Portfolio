@@ -1,6 +1,6 @@
 # Johnny Lee Jones Jr – Computer Science ePortfolio
 
-🔗 **Live ePortfolio:**  
+**Live ePortfolio:**  
 https://codewithlee.github.io/Johnnys-Portfolio/
 
 ---
@@ -79,5 +79,5 @@ I built this portfolio to show how my skills have grown over time and how I appr
 
 If you would like to connect or learn more about my work, please visit my ePortfolio or reach out via email.
 
-📧 **JohnnyLJonesJr@gmail.com**  
-🔗 **https://codewithlee.github.io/Johnnys-Portfolio/**
+**JohnnyLJonesJr@gmail.com**  
+**https://codewithlee.github.io/Johnnys-Portfolio/**
